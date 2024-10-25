@@ -1,0 +1,33 @@
+tu-proyecto/
+│
+├── app/
+│   └── ... (código de tu aplicación)
+│
+├── bootstrap/
+│   └── ... (archivos de inicio)
+│
+├── config/
+│   └── ... (configuración)
+│
+├── database/
+│   └── ... (migraciones, seeders, etc.)
+│
+├── public/                   <--- Aquí va el contenido accesible directamente
+│   ├── css/                  <--- Aquí van tus estilos CSS
+│   │   └── styles.css        <--- Archivo CSS principal
+│   ├── js/                   <--- Aquí van tus scripts JavaScript (si tienes)
+│   ├── img/                  <--- Aquí van tus imágenes
+│   └── index.php             <--- Punto de entrada de Laravel
+│
+├── resources/
+│   ├── views/                <--- Aquí van tus vistas Blade
+│   │   ├── welcome.blade.php
+│   │   ├── navegacion.blade.php
+│   │   └── layouts/
+│   │       └── plantilla.blade.php
+│   └── ... (otros recursos)
+│
+├── routes/
+│   └── web.php              <--- Definición de rutas
+│
+└── ... (otros directorios y archivos)

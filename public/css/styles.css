@@ -1,0 +1,110 @@
+.jumbotron {
+    height: 620px; /* Puedes ajustar esta altura según lo necesites*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.jumbotron a.btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}
+
+/* Mejoras a la barra de navegación */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9); /* Oscurecer para mejor legibilidad */
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color:  #14e48d; 
+}
+
+/* Estilo de los botones */
+.btn-primary {
+    background-color:  #14e48d;
+    border: none;
+}
+
+.btn-outline-light {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color:  #14e48d;
+    border-color: #14e48d;
+}
+
+/* Alinear el footer en la parte inferior */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    gap: 20px; /* Ajusta el espacio entre los botones */
+    justify-content: center; /* Centra los botones */
+    margin-top: 20px;
+}
+
+.hero h1, .hero p, .hero .btn {
+    position: relative;
+    z-index: 10;
+}
+
+/*Equipo*/
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.card .card-img-top {
+    border: 3px solid #f39c12;
+}
+
+.card .social-icons a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.card .social-icons a:hover {
+    color: #f39c12;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
