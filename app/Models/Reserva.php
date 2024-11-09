@@ -20,4 +20,5 @@ class Reserva extends Model
     {
         return $this->belongsTo(Restaurante::class, 'restaurante_id');
     }
+
 }
