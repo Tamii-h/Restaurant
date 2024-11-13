@@ -14,7 +14,7 @@
 <div class="row text-center py-5">
     <div class="col-md-4">
         <h2>Menús</h2>
-        <p>Explora nuestros platos exquisitos.</p>
+        <p>Explora nuestros platos exquisitos y menus diarios.</p>
         <a class="btn btn-secondary" href="/menus/index">Ver Menús</a>
     </div>
     <div class="col-md-4">

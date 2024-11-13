@@ -35,7 +35,7 @@
                 <!-- Si no está autenticado, mostramos el botón de iniciar sesión -->
                 <a class="btn btn-primary" href="{{ route('login') }}">Iniciar Sesión</a>
                 <!-- Enlace al formulario de registro -->
-                <a class="btn btn-primary" href="{{ route('register') }}">Registrarse</a>
+                <a class="btn btn-primary ms-2" href="{{ route('register') }}">Registrarse</a>
             @endauth
 
         </div>

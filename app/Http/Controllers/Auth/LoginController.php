@@ -25,7 +25,7 @@ class LoginController extends Controller
 
         // Intentar autenticar al usuario
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password], $request->remember)) {
-            return redirect()->route('home');
+            return redirect()->route('welcome');
         }
 
         // Si la autenticación falla, redirigir de nuevo con un mensaje de error
