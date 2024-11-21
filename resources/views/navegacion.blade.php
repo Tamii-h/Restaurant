@@ -24,6 +24,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/chefs/index">Chefs</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/restaurantes/index">Restaurantes</a>
+                </li>
             </ul>
             
             <!-- Aquí comprobamos si el usuario está autenticado -->
